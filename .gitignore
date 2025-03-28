@@ -1,0 +1,34 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar diretórios do Python
+__pycache__/
+*.pyc
+
+# Ignorar dependências do Node.js
+node_modules/
+whisper/
+
+# Ignorar arquivos do sistema operacional (Windows)
+Thumbs.db
+Desktop.ini
+
+# Ignorar arquivos de configuração do IDE (exemplo para VSCode)
+.vscode/
+
+# Ignorar arquivos temporários
+*.swp
+*.swo
+
+# Ignorar arquivos de áudio e outros grandes arquivos não versionados
+audio/
+*.wav
+*.mp3
+*.flac
+
+# Ignorar arquivos gerados por build ou distribuição
+dist/
+build/
+
+# Ignorar arquivos de ambiente do Python
+.env
