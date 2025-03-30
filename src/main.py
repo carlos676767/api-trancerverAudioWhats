@@ -16,8 +16,7 @@ class ApiRequest:
     @staticmethod
     def send_request(url, data):
         requests.post(url, data)
-        
-        
+             
 class Whisper(ModuleOs):
     @staticmethod
     def transcribe_audio():

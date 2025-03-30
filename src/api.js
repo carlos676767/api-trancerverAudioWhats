@@ -1,3 +1,5 @@
+const ClientJs = require("./bot");
+
 
 
 
@@ -13,9 +15,12 @@ class Express {
         this.api.use(this.expressJs.json());
         this.api.use(this.bodyParser.json());
         this.api.use(this.cors());
-
         this.api.listen(port, () => {
+            ClientJs.startBot()
             console.log(`Server is running on port ${port}`)
+
+
+            
         })
     }
 }
