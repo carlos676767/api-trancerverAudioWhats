@@ -10,6 +10,7 @@ node_modules/
 whisper/
 .wwebjs_cache/
 .wwebjs_cache/
+.wwebjs_auth/
 
 
 # Ignorar arquivos do sistema operacional (Windows)
